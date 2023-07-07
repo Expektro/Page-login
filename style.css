@@ -10,6 +10,24 @@
         transform: scale(1);
     }
 }
+@media(max-width: 500px){
+    ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+    }
+    
+}
 *{
     margin: 0;
 }
@@ -18,6 +36,7 @@ header{
     justify-content: space-between;
     padding: 1.5%;
     background-color: whitesmoke;
+    
     
 
 }
@@ -76,6 +95,7 @@ h1{
     margin: 70px;
     font-size: 270%;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 .form-geral{
     flex-direction: row;
