@@ -1,0 +1,153 @@
+
+@keyframes hoverEfects{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.9);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5%;
+    background-color: whitesmoke;
+    
+
+}
+.Logo{
+    text-decoration: none;
+    color: #003140;
+    font-size: 170%;
+    padding: 0.7%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+ul{
+    width: 25%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    margin: 7px;
+    padding: 7px;
+   
+}
+li:hover{
+    animation:hoverEfects.5s infinite;
+}
+.a-cabeçalho{
+    color: #003140;
+    font-size: 130%;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+}
+.a-cabeçalho:hover{
+    color: #0031409e;
+}
+.container{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.box{
+    background-color: #040204;
+    width: 50%;
+    height: 70%;
+    border-radius: 10%;
+    margin: 3%;
+}
+h1{
+    color: #00B2DF;
+    margin: 70px;
+    font-size: 270%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form-geral{
+    flex-direction: row;
+    margin: 61px;
+  /*  background-color: #0f080f;*/
+    border-radius: 3px;
+    padding: 3px;
+    
+}
+label{
+    color: #00B2DF;
+    display: flex;
+    font-size: 23px;
+}
+.form{
+    margin: 9px;
+}
+input{
+    border: none;
+    width: 99%;
+    height: 27px;
+    border-radius: 3px;
+}
+button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: #00B2DF;
+    color: whitesmoke;
+    font-size: 14px;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: flex-start;
+    margin: 70px;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+button:hover{
+    background-color: #00B2DFbe;
+    
+}
+.Esqueci-senha{
+    color: #00b2df96;
+    padding: 3px;
+}
+
+a:hover{
+    color: #00B2DF6e;
+
+}
+#titulo{
+    text-shadow: 2px 2px 2px;
+
+}
+.title{
+    flex-direction: row;
+    
+}
+img{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 90%;
+    border-radius: 15px;
+}
+p{
+    color: whitesmoke;
+}
+.conta{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
